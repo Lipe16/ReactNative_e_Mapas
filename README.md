@@ -7,16 +7,14 @@
 
 
 
+
 ### ilustração 01
-![react](https://image.ibb.co/iuAZTJ/ilustracao01.png)
+![react](https://image.ibb.co/iSFn2d/ilustracao1.png)
 
 
 ### ilustração 02
-![react](https://image.ibb.co/npWxhd/ilustracao02.png)
+![react](https://image.ibb.co/nCYJ8J/ilustracao2.png)
 
-
-### ilustração 03
-![react](https://image.ibb.co/bEU6ay/ilustracao03.png)
 
 
 ### comandos que eu usei

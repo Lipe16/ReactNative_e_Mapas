@@ -1,3 +1,36 @@
+
+# Projeto ReactNativeEMaps
+## Este projeto é fruto de um estudo, acompanhando uma das lives da Rocketseat, através dele é possivel tirar uma base boa de como trabalhar com Mapas e estender essa base para outras atividades, são inúmeras as possibilidades e o melhor de tudo é que é tudo nativo tanto para Ios quando para Android.
+
+
+
+
+
+
+### ilustração 01
+![react](https://image.ibb.co/iuAZTJ/ilustracao01.png)
+
+
+### ilustração 02
+![react](https://image.ibb.co/npWxhd/ilustracao02.png)
+
+
+### ilustração 03
+![react](https://image.ibb.co/bEU6ay/ilustracao03.png)
+
+
+### comandos que eu usei
+npm install -g create-react-native-app
+
+dentro do projeto dei um: npm install react-native-maps --save
+
+
+
+## INSTRUÇÕES  OFICIAIS DE COMO USAR O FRAMEWORK --->
+
+
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).

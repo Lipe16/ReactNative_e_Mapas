@@ -22,6 +22,7 @@ npm install -g create-react-native-app
 
 dentro do projeto dei um: npm install react-native-maps --save
 
+depois adicionei isso para usar rotas: npm install react-native-maps-directions --save
 
 
 ## INSTRUÇÕES  OFICIAIS DE COMO USAR O FRAMEWORK --->

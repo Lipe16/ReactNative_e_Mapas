@@ -1,11 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, ScrollView, Image } from 'react-native';
 import MapView from 'react-native-maps';
+import MapViewDirections from 'react-native-maps-directions';
+
 import cafe from './imagens/cafe.png';
 import joao from './imagens/joao.png';
 import react from './imagens/react.png';
 
 export default class App extends React.Component {
+
+
 
   state = {
     places: [
@@ -36,20 +40,29 @@ export default class App extends React.Component {
     ]
   };
 
+
   _mapReady = () => {
     this.state.places[0].mark.showCallout();
   };
 
 
   render() {
+    const GOOGLE_MAPS_APIKEY = 'AIzaSyA7DFfy0fNKbdXWIO1ImvXV9KuQL1lWfDM';
+
+
 
     const {latitude, longitude} = this.state.places[0];
+
+
+    const origem = this.state.places[0];
+    const destino = this.state.places[2];
 
     return (
       <View style={styles.container}>
           <MapView
             ref={map => this.mapView = map}
             initialRegion={{
+
                 latitude:latitude,
                 longitude:longitude,
                 latitudeDelta: 0.0142,
@@ -66,6 +79,14 @@ export default class App extends React.Component {
 
             style={styles.mapView}
           >
+
+          <MapViewDirections
+              origin={origem}
+              destination={destino}
+              apikey={GOOGLE_MAPS_APIKEY}
+              strokeColor="hotpink"
+              strokeWidth={3}
+          />
 
           { this.state.places.map(place => (
             <MapView.Marker
